@@ -1,0 +1,9 @@
+/Users/spencerwhyte/Documents/x/Lesson01View.m: In function '-[Lesson01View initWithFrame:colorBits:depthBits:fullscreen:]':
+/Users/spencerwhyte/Documents/x/Lesson01View.m:27: warning: 'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)
+/Users/spencerwhyte/Documents/x/Lesson01View.m: In function '-[Lesson01View createPixelFormat:]':
+/Users/spencerwhyte/Documents/x/Lesson01View.m:74: warning: 'CGDisplayBestModeForParameters' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:487)
+/Users/spencerwhyte/Documents/x/Lesson01View.m:80: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)
+/Users/spencerwhyte/Documents/x/Lesson01View.m: In function '-[Lesson01View switchToOriginalDisplayMode]':
+/Users/spencerwhyte/Documents/x/Lesson01View.m:134: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)
+/Users/spencerwhyte/Documents/x/Lesson01View.m: At top level:
+/Users/spencerwhyte/Documents/x/Lesson01View.m:232: warning: method possibly missing a [super dealloc] call

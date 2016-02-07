@@ -1,0 +1,5 @@
+/Users/spencerwhyte/Documents/x/NUserDefaultsController.m:8:37: error: NSUserDefaultsController.h: No such file or directory
+/Users/spencerwhyte/Documents/x/NUserDefaultsController.m:11: warning: cannot find interface declaration for 'NSUserDefaultsController'
+/Users/spencerwhyte/Documents/x/NUserDefaultsController.m:11: error: expected ')' before 'IBAction'
+/Users/spencerwhyte/Documents/x/NUserDefaultsController.m:15: error: expected ')' before 'IBAction'
+/Users/spencerwhyte/Documents/x/NUserDefaultsController.m:19: error: expected ')' before 'IBAction'

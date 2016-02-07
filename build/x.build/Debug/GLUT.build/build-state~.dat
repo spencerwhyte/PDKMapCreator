@@ -1,0 +1,116 @@
+TGLUT
+v7
+r0
+t310629866.434579
+cCheck dependencies
+cProcessInfoPlistFile /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist GLUT-Info.plist
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT normal i386
+cTouch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004C584E830000000000043310
+t1280855683
+s275216
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+t1288937066
+s102
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist
+t1288937065
+s825
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT
+t1288937066
+s9808
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/PkgInfo
+t1288937065
+s8
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/GLUT.LinkFileList
+c000000004CD39E69000000000000005A
+t1288937065
+s90
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o
+t1288937057
+s3468
+
+N/Users/spencerwhyte/Documents/x/main.c
+c000000004CD39E61000000000000026F
+t1288937057
+s623
+i<stdlib.h>
+i<GLUT/glut.h>
+
+N/Users/spencerwhyte/Documents/x/main.h
+c000000004CD39E560000000000000084
+t1288937046
+s132
+
+N/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+NGLUT-Info.plist
+c000000004CD39D85000000000000037F
+t1288936837
+s895
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310629865#310629865#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.c normal i386 c com.apple.compilers.gcc.4_2
+s310629865.329767
+e310629865.345368
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/main.o
+x/Users/spencerwhyte/Documents/x/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/spencerwhyte/Documents/x/main.c310629865#310629865#0(0"0(0#0#38"/Users/spencerwhyte/Documents/x/main.c8622942464#1002"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/main.c -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o0#
+
+CLd /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT normal i386
+s310629865.345453
+e310629866.424925
+r1
+xLd
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT
+xnormal
+xi386
+lSLF07#2@77"Link /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT310629865#310629866#0(0"0(0#0#0"8622729984#434"    cd /Users/spencerwhyte/Documents/x    /Developer/usr/bin/gcc-4.2 -arch i386 -L/Users/spencerwhyte/Documents/x/build/Debug -F/Users/spencerwhyte/Documents/x/build/Debug -filelist /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/GLUT.LinkFileList -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT0#
+
+CProcessInfoPlistFile /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist GLUT-Info.plist
+s310629865.309345
+e310629865.329663
+r1
+xProcessInfoPlistFile
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist
+xGLUT-Info.plist
+lSLF07#2@23"Process GLUT-Info.plist310629865#310629865#0(0"0(0#0#47"/Users/spencerwhyte/Documents/x/GLUT-Info.plist20547875170877556#280"    cd /Users/spencerwhyte/Documents/x    builtin-infoPlistUtility GLUT-Info.plist -genpkginfo /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist0#
+
+CTouch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+s310629866.425029
+e310629866.434498
+r1
+xTouch
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+lSLF07#2@58"Touch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app310629866#310629866#0(0"0(0#0#0"8617707392#114"    cd /Users/spencerwhyte/Documents/x    /usr/bin/touch -c /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app0#
+

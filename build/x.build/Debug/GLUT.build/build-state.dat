@@ -1,0 +1,649 @@
+TGLUT
+v7
+r0
+t312020843.211033
+cCheck dependencies
+cProcessInfoPlistFile /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist GLUT-Info.plist
+cStripNIB /Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+cCpResource build/Debug/GLUT.app/Contents/Resources/map.icns map.icns
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/View.o /Users/spencerwhyte/Documents/x/View.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Controller.o /Users/spencerwhyte/Documents/x/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Map.o /Users/spencerwhyte/Documents/x/Map.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Environment.o /Users/spencerwhyte/Documents/x/Environment.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Asset.o /Users/spencerwhyte/Documents/x/Asset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/ImageAsset.o /Users/spencerwhyte/Documents/x/ImageAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/FileSystemItem.o /Users/spencerwhyte/Documents/x/FileSystemItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT normal i386
+cTouch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004BE91B5D0000000000001659
+t1273568093
+s5721
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BE91B5D0000000000025B59
+t1273568093
+s154457
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c000000004AB44590000000000003F039
+t1253328272
+s258105
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BE91B5D0000000000003F84
+t1273568093
+s16260
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004C584E830000000000043310
+t1280855683
+s275216
+
+N/Users/spencerwhyte/Documents/x/Asset.h
+c000000004CE8CA330000000000000197
+t1290324531
+s407
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/Asset.m
+c000000004CE8CA3D0000000000000179
+t1290324541
+s377
+i"Asset.h"
+
+N/Users/spencerwhyte/Documents/x/AssetsDataSource.h
+c000000004CE7F1FA000000000000028D
+t1290269178
+s653
+i<Cocoa/Cocoa.h>
+i"FileSystemItem.h"
+
+N/Users/spencerwhyte/Documents/x/AssetsDataSource.m
+c000000004CE7F5DA0000000000000468
+t1290270170
+s1128
+i"AssetsDataSource.h"
+
+N/Users/spencerwhyte/Documents/x/BUserDefaultsController.h
+c000000004CE0DB03000000000000014D
+t1289804547
+s333
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/BUserDefaultsController.m
+c000000004CE0DB030000000000000164
+t1289804547
+s356
+i"BUserDefaultsController.h"
+
+N/Users/spencerwhyte/Documents/x/Controller.h
+c000000004CE8D2EF000000000000043B
+t1290326767
+s1083
+i<Cocoa/Cocoa.h>
+i"View.h"
+i"Environment.h"
+
+N/Users/spencerwhyte/Documents/x/Controller.m
+c000000004CE8D3460000000000000F63
+t1290326854
+s3939
+i"Controller.h"
+
+N/Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+c000000004CE8D0D00000000000000088
+t1290326224
+s136
+
+N/Users/spencerwhyte/Documents/x/Environment.h
+c000000004CE8CE0E000000000000036B
+t1290325518
+s875
+i"Controller.h"
+i<Cocoa/Cocoa.h>
+i"Map.h"
+i"Asset.h"
+i"ImageAsset.h"
+
+N/Users/spencerwhyte/Documents/x/Environment.m
+c000000004CE8D1B70000000000000DF0
+t1290326455
+s3568
+i"Environment.h"
+
+N/Users/spencerwhyte/Documents/x/FileSystemItem.h
+c000000004CE7F1FC0000000000000207
+t1290269180
+s519
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/FileSystemItem.m
+c000000004CE7F1D900000000000009D3
+t1290269145
+s2515
+i"FileSystemItem.h"
+
+N/Users/spencerwhyte/Documents/x/ImageAsset.h
+c000000004CE82D220000000000000139
+t1290284322
+s313
+i<Cocoa/Cocoa.h>
+i"Asset.h"
+
+N/Users/spencerwhyte/Documents/x/ImageAsset.m
+c000000004CE8C2A000000000000001DA
+t1290322592
+s474
+i"ImageAsset.h"
+
+N/Users/spencerwhyte/Documents/x/Lesson01Controller.h
+c000000004CD4CD6D0000000000000124
+t1289014637
+s292
+i<Cocoa/Cocoa.h>
+i"View.h"
+
+N/Users/spencerwhyte/Documents/x/Lesson01Controller.m
+c000000004CD4CD6D0000000000000AB3
+t1289014637
+s2739
+i"Lesson01Controller.h"
+
+N/Users/spencerwhyte/Documents/x/Lesson01View.h
+c000000003D2CC4720000000000000333
+t1026344050
+s819
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/Lesson01View.m
+c000000004CD4CAD100000000000019DD
+t1289013969
+s6621
+i"Lesson01View.h"
+i<OpenGL/OpenGL.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+
+N/Users/spencerwhyte/Documents/x/LogoIdea.png
+c000000004CB89B390000000000008F28
+t1287166777
+s36648
+
+N/Users/spencerwhyte/Documents/x/Map.h
+c000000004CE8CD0D000000000000038C
+t1290325261
+s908
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/Map.m
+c000000004CE8CE1E0000000000000FC1
+t1290325534
+s4033
+i"Map.h"
+
+N/Users/spencerwhyte/Documents/x/NSUserDefaultsController.h
+c000000004CE0D489000000000000014E
+t1289802889
+s334
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/NSUserDefaultsController.m
+c000000004CE0D4B10000000000000165
+t1289802929
+s357
+i"NSUserDefaultsController.h"
+
+N/Users/spencerwhyte/Documents/x/NUserDefaultsController.m
+c000000004CE0D38F0000000000000164
+t1289802639
+s356
+i"XUserDefaultsController.h"
+
+N/Users/spencerwhyte/Documents/x/View.h
+c000000004CD4EE130000000000000294
+t1289022995
+s660
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/View.m
+c000000004CD4EDB200000000000010A7
+t1289022898
+s4263
+i"View.h"
+i<OpenGL/OpenGL.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+
+N/Users/spencerwhyte/Documents/x/XUserDefaultsController.h
+c000000004CE0D9F5000000000000018F
+t1289804277
+s399
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/XUserDefaultsController.m
+c000000004CE0D9F500000000000001EA
+t1289804277
+s490
+i"XUserDefaultsController.h"
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+t1290328043
+s102
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist
+t1290328043
+s881
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT
+t1290326855
+s41712
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/PkgInfo
+t1290328043
+s8
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290326225
+s21194
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources/LogoIdea.png
+t1290271574
+s36648
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources/map.icns
+t1290327988
+s81859
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Asset.o
+t1290324541
+s7080
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/AssetsDataSource.o
+t1290270170
+s26588
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/BUserDefaultsController.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Controller.o
+t1290326854
+s47528
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Environment.o
+t1290326855
+s29236
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/FileSystemItem.o
+t1290269181
+s13108
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/GLUT.LinkFileList
+c000000004CE82DC800000000000002ED
+t1290284488
+s749
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/ImageAsset.o
+t1290324552
+s7248
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01Controller.o
+t1289014638
+s20688
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01View.o
+t1289013969
+s23632
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Map.o
+t1290325535
+s18552
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/NSUserDefaultsController.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/NUserDefaultsController.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/View.o
+t1289022996
+s20544
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/XUserDefaultsController.o
+t1289804278
+s8472
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o
+t1288977495
+s4780
+
+N/Users/spencerwhyte/Documents/x/main.c
+c000000004CD3A3F4000000000000005F
+t1288938484
+s95
+i<GLUT/glut.h>
+i<OpenGL/glext.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+
+N/Users/spencerwhyte/Documents/x/main.h
+c000000004CD39E560000000000000084
+t1288937046
+s132
+
+N/Users/spencerwhyte/Documents/x/main.m
+c000000003D1B6EC2000000000000007C
+t1025208002
+s124
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/map.icns
+c000000004CE8D7890000000000013FC3
+t1290327945
+s81859
+
+N/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/usr/include/time.h
+c000000004A5C14A7000000000000178E
+t1247548583
+s6030
+
+NGLUT-Info.plist
+c000000004CE8D7E800000000000003B7
+t1290328040
+s951
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312020843#312020843#0(0"0(0#1#0"8629820608#0"0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Asset.o /Users/spencerwhyte/Documents/x/Asset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312017351.479559
+e312017351.481151
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/Asset.o
+x/Users/spencerwhyte/Documents/x/Asset.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/spencerwhyte/Documents/x/Asset.m312017351#312017351#0(388"/Users/spencerwhyte/Documents/x/Asset.m:26: warning: incomplete implementation of class 'Asset'/Users/spencerwhyte/Documents/x/Asset.m:26: warning: method definition for '-unload' not found/Users/spencerwhyte/Documents/x/Asset.m:26: warning: method definition for '-initWithData:' not found/Users/spencerwhyte/Documents/x/Asset.m:26: warning: method definition for '-write:' not found4(22@42"Incomplete implementation of class 'Asset'312017351#0#96#0(6@39"/Users/spencerwhyte/Documents/x/Asset.m312017341#26#0#26#0#38"incomplete implementation of class '*'0(22@41"Method definition for '-unload' not found312017351#96#95#0(6@39"/Users/spencerwhyte/Documents/x/Asset.m312017341#26#0#26#0#35"method definition for '*' not found0(22@48"Method definition for '-initWithData:' not found312017351#191#102#0(6@39"/Users/spencerwhyte/Documents/x/Asset.m312017341#26#0#26#0#35"method definition for '*' not found0(22@41"Method definition for '-write:' not found312017351#293#95#0(6@39"/Users/spencerwhyte/Documents/x/Asset.m312017341#26#0#26#0#35"method definition for '*' not found0(0#0#39"/Users/spencerwhyte/Documents/x/Asset.m8632309920#1014"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Asset.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Asset.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/AssetsDataSource.o /Users/spencerwhyte/Documents/x/AssetsDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311962970.054884
+e311962970.605039
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/AssetsDataSource.o
+x/Users/spencerwhyte/Documents/x/AssetsDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/spencerwhyte/Documents/x/AssetsDataSource.m311962970#311962970#0(0"0(0#0#50"/Users/spencerwhyte/Documents/x/AssetsDataSource.m8623617408#1036"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/AssetsDataSource.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/AssetsDataSource.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/BUserDefaultsController.o /Users/spencerwhyte/Documents/x/BUserDefaultsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Controller.o /Users/spencerwhyte/Documents/x/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312019655.273432
+e312019655.274823
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/Controller.o
+x/Users/spencerwhyte/Documents/x/Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Documents/x/Controller.m312019655#312019655#0(106"/Users/spencerwhyte/Documents/x/Controller.m:148: warning: method possibly missing a [super dealloc] call1(22@46"Method possibly missing a [super dealloc] call312019655#0#106#0(6@44"/Users/spencerwhyte/Documents/x/Controller.m312019654#148#0#148#0#46"method possibly missing a [super dealloc] call0(0#0#44"/Users/spencerwhyte/Documents/x/Controller.m8638549792#1024"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Controller.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Controller.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Environment.o /Users/spencerwhyte/Documents/x/Environment.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312019655.275101
+e312019655.855446
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/Environment.o
+x/Users/spencerwhyte/Documents/x/Environment.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Documents/x/Environment.m: In function '+[Environment mapIsOpen]':
+o/Users/spencerwhyte/Documents/x/Environment.m:75: warning: conflicting types for '+(BOOL)mapIsOpen'
+o/Users/spencerwhyte/Documents/x/Environment.h:29: warning: previous declaration of '+(_Bool)mapIsOpen'
+lSLF07#2@53"Compile /Users/spencerwhyte/Documents/x/Environment.m312019655#312019655#0(290"/Users/spencerwhyte/Documents/x/Environment.m: In function '+[Environment mapIsOpen]':/Users/spencerwhyte/Documents/x/Environment.m:75: warning: conflicting types for '+(BOOL)mapIsOpen'/Users/spencerwhyte/Documents/x/Environment.h:29: warning: previous declaration of '+(_Bool)mapIsOpen'2(22@40"Conflicting types for '+(BOOL)mapIsOpen'312019655#87#100#0(6@45"/Users/spencerwhyte/Documents/x/Environment.m312019255#75#0#75#0#25"conflicting types for '*'0(22@43"Previous declaration of '+(_Bool)mapIsOpen'312019655#187#103#0(6@45"/Users/spencerwhyte/Documents/x/Environment.h312018318#29#0#29#0#0"0(0#0#45"/Users/spencerwhyte/Documents/x/Environment.m8638400960#1026"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Environment.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Environment.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/FileSystemItem.o /Users/spencerwhyte/Documents/x/FileSystemItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311961980.845226
+e311961981.750804
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/FileSystemItem.o
+x/Users/spencerwhyte/Documents/x/FileSystemItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/spencerwhyte/Documents/x/FileSystemItem.m311961980#311961981#0(0"0(0#0#48"/Users/spencerwhyte/Documents/x/FileSystemItem.m8619413888#1032"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/FileSystemItem.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/FileSystemItem.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/ImageAsset.o /Users/spencerwhyte/Documents/x/ImageAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312017351.481308
+e312017352.262025
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/ImageAsset.o
+x/Users/spencerwhyte/Documents/x/ImageAsset.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Documents/x/ImageAsset.m312017351#312017352#0(0"0(0#0#44"/Users/spencerwhyte/Documents/x/ImageAsset.m8632151424#1024"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/ImageAsset.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/ImageAsset.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01Controller.o /Users/spencerwhyte/Documents/x/Lesson01Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310707437.790326
+e310707438.450494
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01Controller.o
+x/Users/spencerwhyte/Documents/x/Lesson01Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Documents/x/Lesson01Controller.m:120: warning: method possibly missing a [super dealloc] call
+lSLF07#2@60"Compile /Users/spencerwhyte/Documents/x/Lesson01Controller.m310707437#310707438#0(114"/Users/spencerwhyte/Documents/x/Lesson01Controller.m:120: warning: method possibly missing a [super dealloc] call1(22@46"Method possibly missing a [super dealloc] call310707438#0#114#0(6@52"/Users/spencerwhyte/Documents/x/Lesson01Controller.m310707437#120#0#120#0#46"method possibly missing a [super dealloc] call0(0#0#52"/Users/spencerwhyte/Documents/x/Lesson01Controller.m8632264288#1040"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Lesson01Controller.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01Controller.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01View.o /Users/spencerwhyte/Documents/x/Lesson01View.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310706840.514465
+e310706840.515611
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01View.o
+x/Users/spencerwhyte/Documents/x/Lesson01View.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/spencerwhyte/Documents/x/Lesson01View.m310706840#310706840#0(1441"/Users/spencerwhyte/Documents/x/Lesson01View.m: In function '-[Lesson01View initWithFrame:colorBits:depthBits:fullscreen:]':/Users/spencerwhyte/Documents/x/Lesson01View.m:38: warning: 'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)/Users/spencerwhyte/Documents/x/Lesson01View.m: In function '-[Lesson01View createPixelFormat:]':/Users/spencerwhyte/Documents/x/Lesson01View.m:85: warning: 'CGDisplayBestModeForParameters' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:487)/Users/spencerwhyte/Documents/x/Lesson01View.m:91: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)/Users/spencerwhyte/Documents/x/Lesson01View.m: In function '-[Lesson01View switchToOriginalDisplayMode]':/Users/spencerwhyte/Documents/x/Lesson01View.m:145: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)/Users/spencerwhyte/Documents/x/Lesson01View.m: At top level:/Users/spencerwhyte/Documents/x/Lesson01View.m:243: warning: method possibly missing a [super dealloc] call6(22@171"'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)310706840#125#232#0(6@46"/Users/spencerwhyte/Documents/x/Lesson01View.m310706769#38#0#38#0#33"'*' is deprecated (declared at *)0(22@181"'CGDisplayBestModeForParameters' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:487)310706840#455#242#0(6@46"/Users/spencerwhyte/Documents/x/Lesson01View.m310706769#85#0#85#0#33"'*' is deprecated (declared at *)0(22@172"'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)310706840#697#233#0(6@46"/Users/spencerwhyte/Documents/x/Lesson01View.m310706769#91#0#91#0#33"'*' is deprecated (declared at *)0(22@172"'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)310706840#1037#234#0(6@46"/Users/spencerwhyte/Documents/x/Lesson01View.m310706769#145#0#145#0#33"'*' is deprecated (declared at *)0(23@13"At top level:310706840#1271#62#0(6@46"/Users/spencerwhyte/Documents/x/Lesson01View.m310706769#0#0#0#0#0"0(22@46"Method possibly missing a [super dealloc] call310706840#1333#108#0(6@46"/Users/spencerwhyte/Documents/x/Lesson01View.m310706769#243#0#243#0#46"method possibly missing a [super dealloc] call0(0#0#46"/Users/spencerwhyte/Documents/x/Lesson01View.m8598720576#1028"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Lesson01View.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Lesson01View.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/Map.o /Users/spencerwhyte/Documents/x/Map.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312018334.760089
+e312018335.292246
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/Map.o
+x/Users/spencerwhyte/Documents/x/Map.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/spencerwhyte/Documents/x/Map.m312018334#312018335#0(0"0(0#0#37"/Users/spencerwhyte/Documents/x/Map.m8624303840#1010"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Map.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/Map.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/NSUserDefaultsController.o /Users/spencerwhyte/Documents/x/NSUserDefaultsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311495729.058681
+e311495729.060131
+r0
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/NSUserDefaultsController.o
+x/Users/spencerwhyte/Documents/x/NSUserDefaultsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/spencerwhyte/Documents/x/NSUserDefaultsController.m311495729#311495729#0(479"In file included from /Users/spencerwhyte/Documents/x/NSUserDefaultsController.m:8:/Users/spencerwhyte/Documents/x/NSUserDefaultsController.h:10: error: duplicate interface declaration for class 'NSUserDefaultsController'/Users/spencerwhyte/Documents/x/NSUserDefaultsController.h:12: error: redefinition of 'struct NSUserDefaultsController'/Users/spencerwhyte/Documents/x/NSUserDefaultsController.m:11: warning: cannot find interface declaration for 'XUserDefaultsController'3(4@68"Duplicate interface declaration for class 'NSUserDefaultsController'311495729#84#139#2(7@80"In file included from /Users/spencerwhyte/Documents/x/NSUserDefaultsController.m311495729#18446744073709551615#0#0(6@58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.m311495729#8#0#8#0#0"0(13@130"Duplicate interface declaration for class 'NSUserDefaultsController' in /Users/spencerwhyte/Documents/x/NSUserDefaultsController.h311495729#18446744073709551615#0#0(6@58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.h311495729#10#0#10#0#0"0(6@58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.h311495729#10#0#10#0#0"0(4@49"Redefinition of 'struct NSUserDefaultsController'311495729#223#120#2(7@80"In file included from /Users/spencerwhyte/Documents/x/NSUserDefaultsController.m311495729#18446744073709551615#0#0(6@58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.m311495729#8#0#8#0#0"0(13@111"Redefinition of 'struct NSUserDefaultsController' in /Users/spencerwhyte/Documents/x/NSUserDefaultsController.h311495729#18446744073709551615#0#0(6@58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.h311495729#12#0#12#0#0"0(6@58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.h311495729#12#0#12#0#19"redefinition of '*'0(22@63"Cannot find interface declaration for 'XUserDefaultsController'311495729#343#136#0(6@58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.m311495729#11#0#11#0#0"0(0#0#58"/Users/spencerwhyte/Documents/x/NSUserDefaultsController.m8618707104#1052"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/NSUserDefaultsController.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/NSUserDefaultsController.o1#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/NUserDefaultsController.o /Users/spencerwhyte/Documents/x/NUserDefaultsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/View.o /Users/spencerwhyte/Documents/x/View.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310715795.787502
+e310715796.582462
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/View.o
+x/Users/spencerwhyte/Documents/x/View.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Documents/x/View.m: In function '-[View initWithFrame:colorBits:depthBits:]':
+o/Users/spencerwhyte/Documents/x/View.m:24: warning: 'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)
+o/Users/spencerwhyte/Documents/x/View.m: In function '-[View switchToOriginalDisplayMode]':
+o/Users/spencerwhyte/Documents/x/View.m:79: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)
+o/Users/spencerwhyte/Documents/x/View.m: At top level:
+o/Users/spencerwhyte/Documents/x/View.m:170: warning: method possibly missing a [super dealloc] call
+lSLF07#2@46"Compile /Users/spencerwhyte/Documents/x/View.m310715795#310715796#0(792"/Users/spencerwhyte/Documents/x/View.m: In function '-[View initWithFrame:colorBits:depthBits:]':/Users/spencerwhyte/Documents/x/View.m:24: warning: 'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)/Users/spencerwhyte/Documents/x/View.m: In function '-[View switchToOriginalDisplayMode]':/Users/spencerwhyte/Documents/x/View.m:79: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)/Users/spencerwhyte/Documents/x/View.m: At top level:/Users/spencerwhyte/Documents/x/View.m:170: warning: method possibly missing a [super dealloc] call4(22@171"'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)310715796#98#224#0(6@38"/Users/spencerwhyte/Documents/x/View.m310715698#24#0#24#0#33"'*' is deprecated (declared at *)0(22@172"'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)310715796#413#225#0(6@38"/Users/spencerwhyte/Documents/x/View.m310715698#79#0#79#0#33"'*' is deprecated (declared at *)0(23@13"At top level:310715796#638#54#0(6@38"/Users/spencerwhyte/Documents/x/View.m310715698#0#0#0#0#0"0(22@46"Method possibly missing a [super dealloc] call310715796#692#100#0(6@38"/Users/spencerwhyte/Documents/x/View.m310715698#170#0#170#0#46"method possibly missing a [super dealloc] call0(0#0#38"/Users/spencerwhyte/Documents/x/View.m8630273152#1012"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/View.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/View.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/XUserDefaultsController.o /Users/spencerwhyte/Documents/x/XUserDefaultsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311497077.444588
+e311497078.149454
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/XUserDefaultsController.o
+x/Users/spencerwhyte/Documents/x/XUserDefaultsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/spencerwhyte/Documents/x/XUserDefaultsController.m311497077#311497078#0(0"0(0#0#57"/Users/spencerwhyte/Documents/x/XUserDefaultsController.m8614861376#1050"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/XUserDefaultsController.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/XUserDefaultsController.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.c normal i386 c com.apple.compilers.gcc.4_2
+s310630375.864009
+e310630375.864873
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/main.o
+x/Users/spencerwhyte/Documents/x/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/spencerwhyte/Documents/x/main.c310630375#310630375#0(0"0(0#0#38"/Users/spencerwhyte/Documents/x/main.c8622811136#1002"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/main.c -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o0#
+
+CCompileC build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310670270.930178
+e310670295.348733
+r1
+xCompileC
+xbuild/x.build/Debug/GLUT.build/Objects-normal/i386/main.o
+x/Users/spencerwhyte/Documents/x/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/spencerwhyte/Documents/x/main.m310670270#310670295#0(0"0(0#0#38"/Users/spencerwhyte/Documents/x/main.m8620524352#1012"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/GLUT-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/DerivedSources -c /Users/spencerwhyte/Documents/x/main.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/main.o0#
+
+CCpResource build/Debug/GLUT.app/Contents/Resources/LogoIdea.png LogoIdea.png
+s311964374.741368
+e311964374.774548
+r1
+xCpResource
+xbuild/Debug/GLUT.app/Contents/Resources/LogoIdea.png
+xLogoIdea.png
+lSLF07#2@17"Copy LogoIdea.png311964374#311964374#0(0"0(0#0#44"/Users/spencerwhyte/Documents/x/LogoIdea.png8630512064#304"    cd /Users/spencerwhyte/Documents/x    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/spencerwhyte/Documents/x/LogoIdea.png /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources0#
+
+CCpResource build/Debug/GLUT.app/Contents/Resources/map.icns map.icns
+s312020788.946150
+e312020788.980606
+r1
+xCpResource
+xbuild/Debug/GLUT.app/Contents/Resources/map.icns
+xmap.icns
+lSLF07#2@13"Copy map.icns312020788#312020788#0(0"0(0#0#40"/Users/spencerwhyte/Documents/x/map.icns8637233568#300"    cd /Users/spencerwhyte/Documents/x    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/spencerwhyte/Documents/x/map.icns /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources0#
+
+CLd /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT normal i386
+s312019655.855779
+e312019655.891705
+r1
+xLd
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT
+xnormal
+xi386
+lSLF07#2@77"Link /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT312019655#312019655#0(0"0(0#0#0"8639040768#434"    cd /Users/spencerwhyte/Documents/x    /Developer/usr/bin/gcc-4.2 -arch i386 -L/Users/spencerwhyte/Documents/x/build/Debug -F/Users/spencerwhyte/Documents/x/build/Debug -filelist /Users/spencerwhyte/Documents/x/build/x.build/Debug/GLUT.build/Objects-normal/i386/GLUT.LinkFileList -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT0#
+
+CProcessInfoPlistFile /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist GLUT-Info.plist
+s312020843.202365
+e312020843.206339
+r1
+xProcessInfoPlistFile
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist
+xGLUT-Info.plist
+lSLF07#2@23"Process GLUT-Info.plist312020843#312020843#0(0"0(0#0#47"/Users/spencerwhyte/Documents/x/GLUT-Info.plist8627087712#280"    cd /Users/spencerwhyte/Documents/x    builtin-infoPlistUtility GLUT-Info.plist -genpkginfo /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist0#
+
+CStripNIB /Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+s312019024.963141
+e312019025.080047
+r1
+xStripNIB
+x/Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib312019024#312019025#0(0"0(0#0#58"/Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib8623823840#271"    cd /Users/spencerwhyte/Documents/x    /Developer/usr/bin/ibtool --strip /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib0#
+
+CTouch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+s312020843.207657
+e312020843.210978
+r1
+xTouch
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+lSLF07#2@58"Touch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app312020843#312020843#0(0"0(0#0#0"8617439456#114"    cd /Users/spencerwhyte/Documents/x    /usr/bin/touch -c /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app0#
+

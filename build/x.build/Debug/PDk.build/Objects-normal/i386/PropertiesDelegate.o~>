@@ -1,0 +1,2 @@
+/Users/spencerwhyte/Documents/x/PropertiesDelegate.m:31: warning: incomplete implementation of class 'PropertiesDelegate'
+/Users/spencerwhyte/Documents/x/PropertiesDelegate.m:31: warning: method definition for '-control:textView:completions:forPartialWordRange:indexOfSelectedItem:' not found

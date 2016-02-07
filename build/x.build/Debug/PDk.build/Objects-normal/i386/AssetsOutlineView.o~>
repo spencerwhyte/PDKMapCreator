@@ -1,0 +1,34 @@
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m: In function '-[NSOutlineView menuForEvent:]':
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:23: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m: At top level:
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: incomplete implementation of class 'NSOutlineView'
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setAutosaveExpandedItems:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-autosaveExpandedItems' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-shouldCollapseAutoExpandedItemsForDeposited:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDropItem:dropChildIndex:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-frameOfOutlineCellAtRow:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-autoresizesOutlineColumn' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setAutoresizesOutlineColumn:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-indentationMarkerFollowsCell' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setIndentationMarkerFollowsCell:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-indentationPerLevel' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setIndentationPerLevel:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-isItemExpanded:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-levelForRow:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-levelForItem:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-rowForItem:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-itemAtRow:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-parentForItem:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-reloadItem:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-reloadItem:reloadChildren:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-collapseItem:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-collapseItem:collapseChildren:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-expandItem:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-expandItem:expandChildren:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-isExpandable:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-outlineTableColumn' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setOutlineTableColumn:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-dataSource' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDataSource:' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-delegate' not found
+/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDelegate:' not found

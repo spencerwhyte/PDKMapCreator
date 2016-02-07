@@ -1,0 +1,869 @@
+TPDk
+v7
+r0
+t316677601.516422
+cCheck dependencies
+cProcessInfoPlistFile /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Info.plist GLUT-Info.plist
+cStripNIB /Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+cCpResource build/Debug/PDK.app/Contents/Resources/map.icns map.icns
+cCpResource build/Debug/PDK.app/Contents/Resources/logo.png logo.png
+cCpResource build/Debug/PDK.app/Contents/Resources/defaultImage.png defaultImage.png
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/View.o /Users/spencerwhyte/Documents/x/View.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Controller.o /Users/spencerwhyte/Documents/x/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Map.o /Users/spencerwhyte/Documents/x/Map.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Environment.o /Users/spencerwhyte/Documents/x/Environment.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Asset.o /Users/spencerwhyte/Documents/x/Asset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ImageAsset.o /Users/spencerwhyte/Documents/x/ImageAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset.o /Users/spencerwhyte/Documents/x/ModelAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ModelPart.o /Users/spencerwhyte/Documents/x/ModelPart.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/WeaponAsset.o /Users/spencerwhyte/Documents/x/WeaponAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/OpenGLImageView.o /Users/spencerwhyte/Documents/x/OpenGLImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/PropertiesDelegate.o /Users/spencerwhyte/Documents/x/PropertiesDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ImageDetails.o /Users/spencerwhyte/Documents/x/ImageDetails.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/MacOS/PDK normal i386
+cTouch /Users/spencerwhyte/Documents/x/build/Debug/PDK.app
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004C971DAF0000000000781330
+t1284971951
+s7869232
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004BE91B5D0000000000001659
+t1273568093
+s5721
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BE91B5D0000000000025B59
+t1273568093
+s154457
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BE91B5D0000000000003F84
+t1273568093
+s16260
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004CE74B410000000000043330
+t1290226497
+s275248
+
+N/Users/spencerwhyte/Documents/x/Asset.h
+c000000004D15A2AE00000000000001BB
+t1293263534
+s443
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/Asset.m
+c000000004D15A36800000000000003CC
+t1293263720
+s972
+i"Asset.h"
+
+N/Users/spencerwhyte/Documents/x/AssetsOutlineView.h
+c000000004D05B0220000000000000107
+t1292218402
+s263
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/AssetsOutlineView.m
+c000000004D05B0220000000000000489
+t1292218402
+s1161
+i"AssetsOutlineView.h"
+
+N/Users/spencerwhyte/Documents/x/Controller.h
+c000000004D2FE07E00000000000008CA
+t1294983294
+s2250
+i<Cocoa/Cocoa.h>
+i"ModelAsset.h"
+i"View.h"
+i"ImageDetails.h"
+
+N/Users/spencerwhyte/Documents/x/Controller.m
+c000000004D2FE65F0000000000002378
+t1294984799
+s9080
+i"Controller.h"
+
+N/Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+c000000004D2255CA0000000000000088
+t1294095818
+s136
+
+N/Users/spencerwhyte/Documents/x/Environment.h
+c000000004D053A780000000000000401
+t1292188280
+s1025
+i"Controller.h"
+i<Cocoa/Cocoa.h>
+i"Map.h"
+
+N/Users/spencerwhyte/Documents/x/Environment.m
+c000000004D1688B6000000000000189B
+t1293322422
+s6299
+i"Environment.h"
+
+N/Users/spencerwhyte/Documents/x/FileSystemItem.h
+c000000004CE7F1FC0000000000000207
+t1290269180
+s519
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/FileSystemItem.m
+c000000004CE7F1D900000000000009D3
+t1290269145
+s2515
+i"FileSystemItem.h"
+
+N/Users/spencerwhyte/Documents/x/ImageAsset.h
+c000000004D16764B0000000000000228
+t1293317707
+s552
+i<Cocoa/Cocoa.h>
+i"Asset.h"
+
+N/Users/spencerwhyte/Documents/x/ImageAsset.m
+c000000004D1683D50000000000000BFD
+t1293321173
+s3069
+i"ImageAsset.h"
+
+N/Users/spencerwhyte/Documents/x/ImageDetails.h
+c000000004D16897000000000000002D7
+t1293322608
+s727
+i<Cocoa/Cocoa.h>
+i"ImageAsset.h"
+i"Environment.h"
+
+N/Users/spencerwhyte/Documents/x/ImageDetails.m
+c000000004D16898C0000000000000449
+t1293322636
+s1097
+i"ImageDetails.h"
+
+N/Users/spencerwhyte/Documents/x/LogoIdea.png
+c000000004CB89B390000000000008F28
+t1287166777
+s36648
+
+N/Users/spencerwhyte/Documents/x/Map.h
+c000000004D05361700000000000005FB
+t1292187159
+s1531
+i<Cocoa/Cocoa.h>
+i"ImageAsset.h"
+i"ModelAsset.h"
+i"Environment.h"
+
+N/Users/spencerwhyte/Documents/x/Map.m
+c000000004D0539EC00000000000019B3
+t1292188140
+s6579
+i"Map.h"
+
+N/Users/spencerwhyte/Documents/x/Model.cpp
+c000000004CF9F4D1000000000000020E
+t1291449553
+s526
+i"Model.h"
+i<stdio.h>
+
+N/Users/spencerwhyte/Documents/x/Model.h
+c000000004CF9EFC60000000000000085
+t1291448262
+s133
+
+N/Users/spencerwhyte/Documents/x/ModelAsset.cpp
+c000000004CF9EF6600000000000000A5
+t1291448166
+s165
+i"ModelAsset.h"
+
+N/Users/spencerwhyte/Documents/x/ModelAsset.h
+c000000004D2260A300000000000002D3
+t1294098595
+s723
+i<Cocoa/Cocoa.h>
+i"ModelPart.h"
+i"ImageAsset.h"
+
+N/Users/spencerwhyte/Documents/x/ModelAsset.m
+c000000004D2260B500000000000026C4
+t1294098613
+s9924
+i"ModelAsset.h"
+
+N/Users/spencerwhyte/Documents/x/ModelPart.h
+c000000004D2260D50000000000000387
+t1294098645
+s903
+i<Cocoa/Cocoa.h>
+i"ImageAsset.h"
+i"Environment.h"
+i"ModelAsset.h"
+
+N/Users/spencerwhyte/Documents/x/ModelPart.m
+c000000004D2260EC0000000000000DB0
+t1294098668
+s3504
+i"ModelPart.h"
+
+N/Users/spencerwhyte/Documents/x/OpenGLImageView.h
+c000000004D03257E0000000000000114
+t1292051838
+s276
+i<Cocoa/Cocoa.h>
+i"Environment.h"
+
+N/Users/spencerwhyte/Documents/x/OpenGLImageView.m
+c000000004D03D343000000000000016C
+t1292096323
+s364
+i"OpenGLImageView.h"
+
+N/Users/spencerwhyte/Documents/x/PropertiesDelegate.h
+c000000004D0336D60000000000000206
+t1292056278
+s518
+i<Cocoa/Cocoa.h>
+i"Environment.h"
+
+N/Users/spencerwhyte/Documents/x/PropertiesDelegate.m
+c000000004D032F750000000000000254
+t1292054389
+s596
+i"PropertiesDelegate.h"
+
+N/Users/spencerwhyte/Documents/x/View.h
+c000000004D225FAF00000000000005AE
+t1294098351
+s1454
+i<Cocoa/Cocoa.h>
+i<OpenGL/OpenGL.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i"Environment.h"
+i"ModelPart.h"
+
+N/Users/spencerwhyte/Documents/x/View.m
+c000000004D229E9200000000000029D2
+t1294114450
+s10706
+i"View.h"
+
+N/Users/spencerwhyte/Documents/x/WeaponAsset.h
+c000000004CF0270400000000000000CE
+t1290807044
+s206
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/WeaponAsset.m
+c000000004CF0270400000000000000C3
+t1290807044
+s195
+i"WeaponAsset.h"
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+t1290328066
+s102
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist
+t1290328043
+s881
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT
+t1290328066
+s41704
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/PkgInfo
+t1290328043
+s8
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290326225
+s21194
+
+N/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Resources/map.icns
+t1290327988
+s81859
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app
+t1294984801
+s102
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Info.plist
+t1293264663
+s1322
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/MacOS/PDK
+t1294984801
+s92304
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/PkgInfo
+t1293264663
+s8
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources/English.lproj/MainMenu.nib
+t1294095820
+s29420
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources/LogoIdea.png
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources/defaultImage.png
+t1293264664
+s4279
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources/logo.png
+t1293264664
+s36648
+
+N/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources/map.icns
+t1293264663
+s81859
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Asset.o
+t1293263721
+s10348
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/AssetsOutlineView.o
+t1292218402
+s25408
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Controller.o
+t1294984800
+s71368
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Environment.o
+t1294983502
+s52200
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/FileSystemItem.o
+t1290328126
+s13108
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/GLUT.LinkFileList
+c000000004CE8D7FE00000000000002E5
+t1290328062
+s741
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ImageAsset.o
+t1293321202
+s16524
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ImageDetails.o
+t1293322716
+s38904
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Map.o
+t1294098673
+s48724
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Model.o
+t1291449553
+s1620
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset-1875DD5ADA347D81.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset-8E7946BAB20E2372.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset.o
+t1294098674
+s50968
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ModelPart.o
+t1294098668
+s39764
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/OpenGLImageView.o
+t1294983502
+s31584
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/PDK.LinkFileList
+c000000004D158C2900000000000004CB
+t1293257769
+s1227
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/PropertiesDelegate.o
+t1294983502
+s33268
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/View.o
+t1294983502
+s55800
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/WeaponAsset.o
+t1290807127
+s4700
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/main.o
+t1290328125
+s4780
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/Asset.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/Controller.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/Environment.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/FileSystemItem.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/GLUT.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/ImageAsset.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/Map.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/View.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDk.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/x/defaultImage.png
+c000000004CFC925100000000000010B7
+t1291620945
+s4279
+
+N/Users/spencerwhyte/Documents/x/logo.png
+c000000004CB89B390000000000008F28
+t1287166777
+s36648
+
+N/Users/spencerwhyte/Documents/x/main.m
+c000000003D1B6EC2000000000000007C
+t1025208002
+s124
+i<Cocoa/Cocoa.h>
+
+N/Users/spencerwhyte/Documents/x/map.icns
+c000000004CE8D7890000000000013FC3
+t1290327945
+s81859
+
+N/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+NGLUT-Info.plist
+c000000004CE96D880000000000000572
+t1290366344
+s1394
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316677601#316677601#0(0"0(0#1#0"8621164288#0"0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Asset.o /Users/spencerwhyte/Documents/x/Asset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314956522.273043
+e314956522.274125
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/Asset.o
+x/Users/spencerwhyte/Documents/x/Asset.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/spencerwhyte/Documents/x/Asset.m314956522#314956522#0(0"0(0#0#39"/Users/spencerwhyte/Documents/x/Asset.m8760650368#1003"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Asset.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Asset.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/AssetsOutlineView.o /Users/spencerwhyte/Documents/x/AssetsOutlineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313911202.286558
+e313911202.918602
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/AssetsOutlineView.o
+x/Users/spencerwhyte/Documents/x/AssetsOutlineView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m: In function '-[NSOutlineView menuForEvent:]':
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:23: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m: At top level:
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: incomplete implementation of class 'NSOutlineView'
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setAutosaveExpandedItems:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-autosaveExpandedItems' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-shouldCollapseAutoExpandedItemsForDeposited:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDropItem:dropChildIndex:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-frameOfOutlineCellAtRow:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-autoresizesOutlineColumn' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setAutoresizesOutlineColumn:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-indentationMarkerFollowsCell' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setIndentationMarkerFollowsCell:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-indentationPerLevel' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setIndentationPerLevel:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-isItemExpanded:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-levelForRow:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-levelForItem:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-rowForItem:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-itemAtRow:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-parentForItem:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-reloadItem:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-reloadItem:reloadChildren:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-collapseItem:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-collapseItem:collapseChildren:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-expandItem:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-expandItem:expandChildren:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-isExpandable:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-outlineTableColumn' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setOutlineTableColumn:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-dataSource' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDataSource:' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-delegate' not found
+o/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDelegate:' not found
+lSLF07#2@59"Compile /Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#313911202#0(4093"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m: In function '-[NSOutlineView menuForEvent:]':/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:23: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)/Users/spencerwhyte/Documents/x/AssetsOutlineView.m: At top level:/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: incomplete implementation of class 'NSOutlineView'/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setAutosaveExpandedItems:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-autosaveExpandedItems' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-shouldCollapseAutoExpandedItemsForDeposited:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDropItem:dropChildIndex:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-frameOfOutlineCellAtRow:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-autoresizesOutlineColumn' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setAutoresizesOutlineColumn:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-indentationMarkerFollowsCell' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setIndentationMarkerFollowsCell:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-indentationPerLevel' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setIndentationPerLevel:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-isItemExpanded:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-levelForRow:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-levelForItem:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-rowForItem:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-itemAtRow:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-parentForItem:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-reloadItem:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-reloadItem:reloadChildren:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-collapseItem:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-collapseItem:collapseChildren:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-expandItem:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-expandItem:expandChildren:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-isExpandable:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-outlineTableColumn' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setOutlineTableColumn:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-dataSource' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDataSource:' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-delegate' not found/Users/spencerwhyte/Documents/x/AssetsOutlineView.m:37: warning: method definition for '-setDelegate:' not found33(22@131"'selectRow:byExtendingSelection:' is deprecated (declared at /System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)313911202#99#197#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#23#0#23#0#33"'*' is deprecated (declared at *)0(23@13"At top level:313911202#296#67#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#0#0#0#0#0"0(22@50"Incomplete implementation of class 'NSOutlineView'313911202#363#116#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#38"incomplete implementation of class '*'0(22@60"Method definition for '-setAutosaveExpandedItems:' not found313911202#479#126#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@56"Method definition for '-autosaveExpandedItems' not found313911202#605#122#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@79"Method definition for '-shouldCollapseAutoExpandedItemsForDeposited:' not found313911202#727#145#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@62"Method definition for '-setDropItem:dropChildIndex:' not found313911202#872#128#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@59"Method definition for '-frameOfOutlineCellAtRow:' not found313911202#1000#125#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@59"Method definition for '-autoresizesOutlineColumn' not found313911202#1125#125#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@63"Method definition for '-setAutoresizesOutlineColumn:' not found313911202#1250#129#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@63"Method definition for '-indentationMarkerFollowsCell' not found313911202#1379#129#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@67"Method definition for '-setIndentationMarkerFollowsCell:' not found313911202#1508#133#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@54"Method definition for '-indentationPerLevel' not found313911202#1641#120#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@58"Method definition for '-setIndentationPerLevel:' not found313911202#1761#124#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@50"Method definition for '-isItemExpanded:' not found313911202#1885#116#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@47"Method definition for '-levelForRow:' not found313911202#2001#113#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@48"Method definition for '-levelForItem:' not found313911202#2114#114#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@46"Method definition for '-rowForItem:' not found313911202#2228#112#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@45"Method definition for '-itemAtRow:' not found313911202#2340#111#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@49"Method definition for '-parentForItem:' not found313911202#2451#115#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@46"Method definition for '-reloadItem:' not found313911202#2566#112#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@61"Method definition for '-reloadItem:reloadChildren:' not found313911202#2678#127#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@48"Method definition for '-collapseItem:' not found313911202#2805#114#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@65"Method definition for '-collapseItem:collapseChildren:' not found313911202#2919#131#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@46"Method definition for '-expandItem:' not found313911202#3050#112#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@61"Method definition for '-expandItem:expandChildren:' not found313911202#3162#127#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@48"Method definition for '-isExpandable:' not found313911202#3289#114#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@53"Method definition for '-outlineTableColumn' not found313911202#3403#119#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@57"Method definition for '-setOutlineTableColumn:' not found313911202#3522#123#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@45"Method definition for '-dataSource' not found313911202#3645#111#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@49"Method definition for '-setDataSource:' not found313911202#3756#115#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@43"Method definition for '-delegate' not found313911202#3871#109#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(22@47"Method definition for '-setDelegate:' not found313911202#3980#113#0(6@51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m313911202#37#0#37#0#35"method definition for '*' not found0(0#0#51"/Users/spencerwhyte/Documents/x/AssetsOutlineView.m8731602368#1027"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/AssetsOutlineView.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/AssetsOutlineView.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Controller.o /Users/spencerwhyte/Documents/x/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316677601.425043
+e316677601.426527
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/Controller.o
+x/Users/spencerwhyte/Documents/x/Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Documents/x/Controller.m316677601#316677601#0(106"/Users/spencerwhyte/Documents/x/Controller.m:257: warning: method possibly missing a [super dealloc] call1(22@46"Method possibly missing a [super dealloc] call316677601#0#106#0(6@44"/Users/spencerwhyte/Documents/x/Controller.m316677599#257#0#257#0#46"method possibly missing a [super dealloc] call0(0#0#44"/Users/spencerwhyte/Documents/x/Controller.m8598675040#1013"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Controller.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Controller.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Environment.o /Users/spencerwhyte/Documents/x/Environment.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316676299.410938
+e316676302.325499
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/Environment.o
+x/Users/spencerwhyte/Documents/x/Environment.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Documents/x/Environment.m: In function '+[Environment saveMap]':
+o/Users/spencerwhyte/Documents/x/Environment.m:76: warning: conflicting types for '+(void)saveMap'
+o/Users/spencerwhyte/Documents/x/Environment.h:25: warning: previous declaration of '+(BOOL)saveMap'
+lSLF07#2@53"Compile /Users/spencerwhyte/Documents/x/Environment.m316676299#316676302#0(283"/Users/spencerwhyte/Documents/x/Environment.m: In function '+[Environment saveMap]':/Users/spencerwhyte/Documents/x/Environment.m:76: warning: conflicting types for '+(void)saveMap'/Users/spencerwhyte/Documents/x/Environment.h:25: warning: previous declaration of '+(BOOL)saveMap'2(22@38"Conflicting types for '+(void)saveMap'316676302#85#98#0(6@45"/Users/spencerwhyte/Documents/x/Environment.m315015222#76#0#76#0#25"conflicting types for '*'0(22@40"Previous declaration of '+(BOOL)saveMap'316676302#183#100#0(6@45"/Users/spencerwhyte/Documents/x/Environment.h313881080#25#0#25#0#0"0(0#0#45"/Users/spencerwhyte/Documents/x/Environment.m8678385056#1015"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Environment.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Environment.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/FileSystemItem.o /Users/spencerwhyte/Documents/x/FileSystemItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312020925.141889
+e312020926.113595
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/FileSystemItem.o
+x/Users/spencerwhyte/Documents/x/FileSystemItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/spencerwhyte/Documents/x/FileSystemItem.m312020925#312020926#0(0"0(0#0#48"/Users/spencerwhyte/Documents/x/FileSystemItem.m8632782592#1021"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/FileSystemItem.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/FileSystemItem.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ImageAsset.o /Users/spencerwhyte/Documents/x/ImageAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315014002.038412
+e315014002.962146
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/ImageAsset.o
+x/Users/spencerwhyte/Documents/x/ImageAsset.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Documents/x/ImageAsset.m315014002#315014002#0(0"0(0#0#44"/Users/spencerwhyte/Documents/x/ImageAsset.m8622542944#1013"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/ImageAsset.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ImageAsset.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ImageDetails.o /Users/spencerwhyte/Documents/x/ImageDetails.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315015515.992292
+e315015516.711686
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/ImageDetails.o
+x/Users/spencerwhyte/Documents/x/ImageDetails.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/spencerwhyte/Documents/x/ImageDetails.m315015515#315015516#0(0"0(0#0#46"/Users/spencerwhyte/Documents/x/ImageDetails.m8621172288#1017"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/ImageDetails.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ImageDetails.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Map.o /Users/spencerwhyte/Documents/x/Map.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315791472.565449
+e315791473.604798
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/Map.o
+x/Users/spencerwhyte/Documents/x/Map.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Documents/x/Map.m:227: warning: incomplete implementation of class 'Map'
+o/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-setDescription:' not found
+o/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-getDescription' not found
+o/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-setName:' not found
+o/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-getName' not found
+lSLF07#2@45"Compile /Users/spencerwhyte/Documents/x/Map.m315791472#315791473#0(489"/Users/spencerwhyte/Documents/x/Map.m:227: warning: incomplete implementation of class 'Map'/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-setDescription:' not found/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-getDescription' not found/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-setName:' not found/Users/spencerwhyte/Documents/x/Map.m:227: warning: method definition for '-getName' not found5(22@40"Incomplete implementation of class 'Map'315791473#0#93#0(6@37"/Users/spencerwhyte/Documents/x/Map.m313880940#227#0#227#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-setDescription:' not found315791473#93#103#0(6@37"/Users/spencerwhyte/Documents/x/Map.m313880940#227#0#227#0#35"method definition for '*' not found0(22@49"Method definition for '-getDescription' not found315791473#196#102#0(6@37"/Users/spencerwhyte/Documents/x/Map.m313880940#227#0#227#0#35"method definition for '*' not found0(22@43"Method definition for '-setName:' not found315791473#298#96#0(6@37"/Users/spencerwhyte/Documents/x/Map.m313880940#227#0#227#0#35"method definition for '*' not found0(22@42"Method definition for '-getName' not found315791473#394#95#0(6@37"/Users/spencerwhyte/Documents/x/Map.m313880940#227#0#227#0#35"method definition for '*' not found0(0#0#37"/Users/spencerwhyte/Documents/x/Map.m8595087232#999"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Map.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Map.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/Model.o /Users/spencerwhyte/Documents/x/Model.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s313142484.761860
+e313142484.762642
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/Model.o
+x/Users/spencerwhyte/Documents/x/Model.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/spencerwhyte/Documents/x/Model.cpp313142484#313142484#0(199"/Users/spencerwhyte/Documents/x/Model.cpp: In member function 'bool Model::loadOBJ(char*)':/Users/spencerwhyte/Documents/x/Model.cpp:27: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments313142484#92#107#0(6@41"/Users/spencerwhyte/Documents/x/Model.cpp313142353#27#0#27#0#51"format not a string literal and no format arguments0(0#0#41"/Users/spencerwhyte/Documents/x/Model.cpp8619191040#1025"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/Model.cpp -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/Model.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset-1875DD5ADA347D81.o /Users/spencerwhyte/Documents/x/ModelAsset.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset-8E7946BAB20E2372.o /Users/spencerwhyte/Documents/x/ModelAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset.o /Users/spencerwhyte/Documents/x/ModelAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315791473.547115
+e315791474.437739
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset.o
+x/Users/spencerwhyte/Documents/x/ModelAsset.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/spencerwhyte/Documents/x/ModelAsset.m315791473#315791474#0(0"0(0#0#44"/Users/spencerwhyte/Documents/x/ModelAsset.m8615836416#1013"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/ModelAsset.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ModelAsset.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/ModelPart.o /Users/spencerwhyte/Documents/x/ModelPart.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315791473.604937
+e315791473.606257
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/ModelPart.o
+x/Users/spencerwhyte/Documents/x/ModelPart.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/spencerwhyte/Documents/x/ModelPart.m315791473#315791473#0(0"0(0#0#43"/Users/spencerwhyte/Documents/x/ModelPart.m8626760096#1011"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/ModelPart.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/ModelPart.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/OpenGLImageView.o /Users/spencerwhyte/Documents/x/OpenGLImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316676299.412170
+e316676302.271337
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/OpenGLImageView.o
+x/Users/spencerwhyte/Documents/x/OpenGLImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/spencerwhyte/Documents/x/OpenGLImageView.m316676299#316676302#0(0"0(0#0#49"/Users/spencerwhyte/Documents/x/OpenGLImageView.m8676063136#1023"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/OpenGLImageView.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/OpenGLImageView.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/PropertiesDelegate.o /Users/spencerwhyte/Documents/x/PropertiesDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316676299.412953
+e316676302.276171
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/PropertiesDelegate.o
+x/Users/spencerwhyte/Documents/x/PropertiesDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/spencerwhyte/Documents/x/PropertiesDelegate.m316676299#316676302#0(0"0(0#0#52"/Users/spencerwhyte/Documents/x/PropertiesDelegate.m8662754848#1029"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/PropertiesDelegate.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/PropertiesDelegate.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/View.o /Users/spencerwhyte/Documents/x/View.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316676299.385124
+e316676302.276655
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/View.o
+x/Users/spencerwhyte/Documents/x/View.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/spencerwhyte/Documents/x/View.m: In function '-[View initWithFrame:colorBits:depthBits:]':
+o/Users/spencerwhyte/Documents/x/View.m:22: warning: 'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)
+o/Users/spencerwhyte/Documents/x/View.m: In function '-[View switchToOriginalDisplayMode]':
+o/Users/spencerwhyte/Documents/x/View.m:125: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)
+o/Users/spencerwhyte/Documents/x/View.m: At top level:
+o/Users/spencerwhyte/Documents/x/View.m:428: warning: method possibly missing a [super dealloc] call
+lSLF07#2@46"Compile /Users/spencerwhyte/Documents/x/View.m316676299#316676302#0(793"/Users/spencerwhyte/Documents/x/View.m: In function '-[View initWithFrame:colorBits:depthBits:]':/Users/spencerwhyte/Documents/x/View.m:22: warning: 'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)/Users/spencerwhyte/Documents/x/View.m: In function '-[View switchToOriginalDisplayMode]':/Users/spencerwhyte/Documents/x/View.m:125: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)/Users/spencerwhyte/Documents/x/View.m: At top level:/Users/spencerwhyte/Documents/x/View.m:428: warning: method possibly missing a [super dealloc] call4(22@171"'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)316676302#98#224#0(6@38"/Users/spencerwhyte/Documents/x/View.m315807250#22#0#22#0#33"'*' is deprecated (declared at *)0(22@172"'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)316676302#413#226#0(6@38"/Users/spencerwhyte/Documents/x/View.m315807250#125#0#125#0#33"'*' is deprecated (declared at *)0(23@13"At top level:316676302#639#54#0(6@38"/Users/spencerwhyte/Documents/x/View.m315807250#0#0#0#0#0"0(22@46"Method possibly missing a [super dealloc] call316676302#693#100#0(6@38"/Users/spencerwhyte/Documents/x/View.m315807250#428#0#428#0#46"method possibly missing a [super dealloc] call0(0#0#38"/Users/spencerwhyte/Documents/x/View.m8662733856#1001"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/View.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/View.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/WeaponAsset.o /Users/spencerwhyte/Documents/x/WeaponAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312499926.778451
+e312499927.420031
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/WeaponAsset.o
+x/Users/spencerwhyte/Documents/x/WeaponAsset.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/spencerwhyte/Documents/x/WeaponAsset.m312499926#312499927#0(0"0(0#0#45"/Users/spencerwhyte/Documents/x/WeaponAsset.m8626892352#1015"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/WeaponAsset.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/WeaponAsset.o0#
+
+CCompileC build/x.build/Debug/PDK.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312020924.007992
+e312020925.030897
+r1
+xCompileC
+xbuild/x.build/Debug/PDK.build/Objects-normal/i386/main.o
+x/Users/spencerwhyte/Documents/x/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/spencerwhyte/Documents/x/main.m312020924#312020925#0(0"0(0#0#38"/Users/spencerwhyte/Documents/x/main.m8632537664#1001"    cd /Users/spencerwhyte/Documents/x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-generated-files.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-own-target-headers.hmap -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-all-target-headers.hmap -iquote /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/PDK-project-headers.hmap -F/Users/spencerwhyte/Documents/x/build/Debug -I/Users/spencerwhyte/Documents/x/build/Debug/include -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources/i386 -I/Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/DerivedSources -c /Users/spencerwhyte/Documents/x/main.m -o /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/main.o0#
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/Asset.o /Users/spencerwhyte/Documents/x/Asset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/Controller.o /Users/spencerwhyte/Documents/x/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/Environment.o /Users/spencerwhyte/Documents/x/Environment.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/FileSystemItem.o /Users/spencerwhyte/Documents/x/FileSystemItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/ImageAsset.o /Users/spencerwhyte/Documents/x/ImageAsset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/Map.o /Users/spencerwhyte/Documents/x/Map.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/View.o /Users/spencerwhyte/Documents/x/View.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/x.build/Debug/PDk.build/Objects-normal/i386/main.o /Users/spencerwhyte/Documents/x/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCpResource build/Debug/GLUT.app/Contents/Resources/map.icns map.icns
+r0
+
+CCpResource build/Debug/PDK.app/Contents/Resources/LogoIdea.png LogoIdea.png
+r0
+
+CCpResource build/Debug/PDK.app/Contents/Resources/defaultImage.png defaultImage.png
+s314957463.986028
+e314957464.007632
+r1
+xCpResource
+xbuild/Debug/PDK.app/Contents/Resources/defaultImage.png
+xdefaultImage.png
+lSLF07#2@21"Copy defaultImage.png314957463#314957464#0(0"0(0#0#48"/Users/spencerwhyte/Documents/x/defaultImage.png8752390080#307"    cd /Users/spencerwhyte/Documents/x    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/spencerwhyte/Documents/x/defaultImage.png /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources0#
+
+CCpResource build/Debug/PDK.app/Contents/Resources/logo.png logo.png
+s314957463.985306
+e314957464.007895
+r1
+xCpResource
+xbuild/Debug/PDK.app/Contents/Resources/logo.png
+xlogo.png
+lSLF07#2@13"Copy logo.png314957463#314957464#0(0"0(0#0#40"/Users/spencerwhyte/Documents/x/logo.png8752849408#299"    cd /Users/spencerwhyte/Documents/x    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/spencerwhyte/Documents/x/logo.png /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources0#
+
+CCpResource build/Debug/PDK.app/Contents/Resources/map.icns map.icns
+s314957463.984268
+e314957464.002198
+r1
+xCpResource
+xbuild/Debug/PDK.app/Contents/Resources/map.icns
+xmap.icns
+lSLF07#2@13"Copy map.icns314957463#314957464#0(0"0(0#0#40"/Users/spencerwhyte/Documents/x/map.icns8702981696#299"    cd /Users/spencerwhyte/Documents/x    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/spencerwhyte/Documents/x/map.icns /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources0#
+
+CLd /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT normal i386
+s312020865.676758
+e312020866.349640
+r1
+xLd
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT
+xnormal
+xi386
+lSLF07#2@77"Link /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT312020865#312020866#0(0"0(0#0#0"8630625120#433"    cd /Users/spencerwhyte/Documents/x    /Developer/usr/bin/gcc-4.2 -arch i386 -L/Users/spencerwhyte/Documents/x/build/Debug -F/Users/spencerwhyte/Documents/x/build/Debug -filelist /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/GLUT.LinkFileList -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/MacOS/GLUT0#
+
+CLd /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/MacOS/PDK normal i386
+s316677601.427780
+e316677601.513770
+r1
+xLd
+x/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/MacOS/PDK
+xnormal
+xi386
+lSLF07#2@75"Link /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/MacOS/PDK316677601#316677601#0(0"0(0#0#0"8633306272#456"    cd /Users/spencerwhyte/Documents/x    /Developer/usr/bin/gcc-4.2 -arch i386 -L/Users/spencerwhyte/Documents/x/build/Debug -F/Users/spencerwhyte/Documents/x/build/Debug -filelist /Users/spencerwhyte/Documents/x/build/x.build/Debug/PDK.build/Objects-normal/i386/PDK.LinkFileList -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -framework CoreFoundation -o /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/MacOS/PDK0#
+
+CProcessInfoPlistFile /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app/Contents/Info.plist GLUT-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Info.plist GLUT-Info.plist
+s314957463.954885
+e314957463.959579
+r1
+xProcessInfoPlistFile
+x/Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Info.plist
+xGLUT-Info.plist
+lSLF07#2@23"Process GLUT-Info.plist314957463#314957463#0(0"0(0#0#47"/Users/spencerwhyte/Documents/x/GLUT-Info.plist8732986816#278"    cd /Users/spencerwhyte/Documents/x    builtin-infoPlistUtility GLUT-Info.plist -genpkginfo /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Info.plist0#
+
+CStripNIB /Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+s315788620.099302
+e315788620.202293
+r1
+xStripNIB
+x/Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib315788620#315788620#0(0"0(0#0#58"/Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib8619495392#270"    cd /Users/spencerwhyte/Documents/x    /Developer/usr/bin/ibtool --strip /Users/spencerwhyte/Documents/x/build/Debug/PDK.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/spencerwhyte/Documents/x/English.lproj/MainMenu.nib0#
+
+CTouch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+s312020866.349764
+e312020866.352069
+r1
+xTouch
+x/Users/spencerwhyte/Documents/x/build/Debug/GLUT.app
+lSLF07#2@58"Touch /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app312020866#312020866#0(0"0(0#0#0"8630761152#114"    cd /Users/spencerwhyte/Documents/x    /usr/bin/touch -c /Users/spencerwhyte/Documents/x/build/Debug/GLUT.app0#
+
+CTouch /Users/spencerwhyte/Documents/x/build/Debug/PDK.app
+s316677601.513865
+e316677601.516389
+r1
+xTouch
+x/Users/spencerwhyte/Documents/x/build/Debug/PDK.app
+lSLF07#2@57"Touch /Users/spencerwhyte/Documents/x/build/Debug/PDK.app316677601#316677601#0(0"0(0#0#0"8678599040#113"    cd /Users/spencerwhyte/Documents/x    /usr/bin/touch -c /Users/spencerwhyte/Documents/x/build/Debug/PDK.app0#
+

@@ -1,0 +1,6 @@
+In file included from /Users/spencerwhyte/Documents/x/ImageDetails.m:8:
+/Users/spencerwhyte/Documents/x/ImageDetails.h:16: error: statically allocated instance of Objective-C class 'ImageAsset'
+/Users/spencerwhyte/Documents/x/ImageDetails.m: In function '-[ImageDetails setIA:]':
+/Users/spencerwhyte/Documents/x/ImageDetails.m:39: error: incompatible types in assignment
+/Users/spencerwhyte/Documents/x/ImageDetails.m: In function '-[ImageDetails getIA]':
+/Users/spencerwhyte/Documents/x/ImageDetails.m:43: error: incompatible types in return

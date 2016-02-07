@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35C0F4A12B352B200BC15E7 /* defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F35C0F4912B352B200BC15E7 /* defaultImage.png */; };
+		F35C0F5512B3570B00BC15E7 /* OpenGLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F35C0F5412B3570B00BC15E7 /* OpenGLImageView.m */; };
+		F35C0FD112B360BB00BC15E7 /* PropertiesDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35C0FD012B360BB00BC15E7 /* PropertiesDelegate.m */; };
+		F35C155612C5B9CE00BC15E7 /* ImageDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = F35C155512C5B9CE00BC15E7 /* ImageDetails.m */; };
+		F375C3A1128922AB00DBE3B2 /* Environment.m in Sources */ = {isa = PBXBuildFile; fileRef = F375C3A0128922AB00DBE3B2 /* Environment.m */; };
+		F39938E21283D5BE00A51E68 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39938E11283D5BE00A51E68 /* GLUT.framework */; };
+		F39938E41283D5BE00A51E68 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39938E31283D5BE00A51E68 /* OpenGL.framework */; };
+		F399394A128473BC00A51E68 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = F3993945128473BC00A51E68 /* View.m */; };
+		F399394B128473BC00A51E68 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F3993947128473BC00A51E68 /* Controller.m */; };
+		F399394C128473BC00A51E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3993949128473BC00A51E68 /* main.m */; };
+		F39939531284740300A51E68 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = F39939511284740300A51E68 /* MainMenu.nib */; };
+		F39939E11285058100A51E68 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = F39939E01285058100A51E68 /* Map.m */; };
+		F3D2CDD012979AC700E31B19 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2CDCF12979AC700E31B19 /* Asset.m */; };
+		F3D2CDD412979F6600E31B19 /* ImageAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2CDD312979F6600E31B19 /* ImageAsset.m */; };
+		F3D2D18E12990F2600E31B19 /* map.icns in Resources */ = {isa = PBXBuildFile; fileRef = F3D2D18D12990F2600E31B19 /* map.icns */; };
+		F3D2D1A112990FF600E31B19 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D2D1A012990FF600E31B19 /* logo.png */; };
+		F3D2D1B2129910A600E31B19 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D2D1B1129910A600E31B19 /* CoreFoundation.framework */; };
+		F3D2D3F8129CD33900E31B19 /* ModelAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2D3F7129CD33900E31B19 /* ModelAsset.m */; };
+		F3D2D41B129CD6D100E31B19 /* ModelPart.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2D41A129CD6D100E31B19 /* ModelPart.m */; };
+		F3D2D73212A05E8400E31B19 /* WeaponAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2D73112A05E8400E31B19 /* WeaponAsset.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F35C0F4912B352B200BC15E7 /* defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultImage.png; sourceTree = "<group>"; };
+		F35C0F5312B3570B00BC15E7 /* OpenGLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLImageView.h; sourceTree = "<group>"; };
+		F35C0F5412B3570B00BC15E7 /* OpenGLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLImageView.m; sourceTree = "<group>"; };
+		F35C0FCF12B360BB00BC15E7 /* PropertiesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertiesDelegate.h; sourceTree = "<group>"; };
+		F35C0FD012B360BB00BC15E7 /* PropertiesDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertiesDelegate.m; sourceTree = "<group>"; };
+		F35C155412C5B9CE00BC15E7 /* ImageDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDetails.h; sourceTree = "<group>"; };
+		F35C155512C5B9CE00BC15E7 /* ImageDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDetails.m; sourceTree = "<group>"; };
+		F375C39F128922AB00DBE3B2 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		F375C3A0128922AB00DBE3B2 /* Environment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Environment.m; sourceTree = "<group>"; };
+		F39938DA1283D50500A51E68 /* PDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39938DD1283D50500A51E68 /* GLUT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLUT-Info.plist"; sourceTree = "<group>"; };
+		F39938E11283D5BE00A51E68 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		F39938E31283D5BE00A51E68 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F3993945128473BC00A51E68 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		F3993946128473BC00A51E68 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		F3993947128473BC00A51E68 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		F3993948128473BC00A51E68 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		F3993949128473BC00A51E68 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F39939521284740300A51E68 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F39939DF1285058100A51E68 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		F39939E01285058100A51E68 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		F3D2CDCE12979AC700E31B19 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		F3D2CDCF12979AC700E31B19 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
+		F3D2CDD212979F6600E31B19 /* ImageAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAsset.h; sourceTree = "<group>"; };
+		F3D2CDD312979F6600E31B19 /* ImageAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAsset.m; sourceTree = "<group>"; };
+		F3D2D18D12990F2600E31B19 /* map.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = map.icns; sourceTree = "<group>"; };
+		F3D2D1A012990FF600E31B19 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F3D2D1B1129910A600E31B19 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		F3D2D3F6129CD33900E31B19 /* ModelAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAsset.h; sourceTree = "<group>"; };
+		F3D2D3F7129CD33900E31B19 /* ModelAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAsset.m; sourceTree = "<group>"; };
+		F3D2D419129CD6D100E31B19 /* ModelPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelPart.h; sourceTree = "<group>"; };
+		F3D2D41A129CD6D100E31B19 /* ModelPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelPart.m; sourceTree = "<group>"; };
+		F3D2D73012A05E8400E31B19 /* WeaponAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponAsset.h; sourceTree = "<group>"; };
+		F3D2D73112A05E8400E31B19 /* WeaponAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponAsset.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39938D81283D50500A51E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39938E21283D5BE00A51E68 /* GLUT.framework in Frameworks */,
+				F39938E41283D5BE00A51E68 /* OpenGL.framework in Frameworks */,
+				F3D2D1B2129910A600E31B19 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39938C91283D4D300A51E68 = {
+			isa = PBXGroup;
+			children = (
+				F35C0F4912B352B200BC15E7 /* defaultImage.png */,
+				F3D2D1A012990FF600E31B19 /* logo.png */,
+				F3D2D18D12990F2600E31B19 /* map.icns */,
+				F39939511284740300A51E68 /* MainMenu.nib */,
+				F3993945128473BC00A51E68 /* View.m */,
+				F3993946128473BC00A51E68 /* View.h */,
+				F3993947128473BC00A51E68 /* Controller.m */,
+				F3993948128473BC00A51E68 /* Controller.h */,
+				F3993949128473BC00A51E68 /* main.m */,
+				F39938DB1283D50500A51E68 /* Products */,
+				F39938DD1283D50500A51E68 /* GLUT-Info.plist */,
+				F39938E11283D5BE00A51E68 /* GLUT.framework */,
+				F39938E31283D5BE00A51E68 /* OpenGL.framework */,
+				F39939DF1285058100A51E68 /* Map.h */,
+				F39939E01285058100A51E68 /* Map.m */,
+				F375C39F128922AB00DBE3B2 /* Environment.h */,
+				F375C3A0128922AB00DBE3B2 /* Environment.m */,
+				F3D2CDCE12979AC700E31B19 /* Asset.h */,
+				F3D2CDCF12979AC700E31B19 /* Asset.m */,
+				F3D2CDD212979F6600E31B19 /* ImageAsset.h */,
+				F3D2CDD312979F6600E31B19 /* ImageAsset.m */,
+				F3D2D1B1129910A600E31B19 /* CoreFoundation.framework */,
+				F3D2D3F6129CD33900E31B19 /* ModelAsset.h */,
+				F3D2D3F7129CD33900E31B19 /* ModelAsset.m */,
+				F3D2D419129CD6D100E31B19 /* ModelPart.h */,
+				F3D2D41A129CD6D100E31B19 /* ModelPart.m */,
+				F3D2D73012A05E8400E31B19 /* WeaponAsset.h */,
+				F3D2D73112A05E8400E31B19 /* WeaponAsset.m */,
+				F35C0F5312B3570B00BC15E7 /* OpenGLImageView.h */,
+				F35C0F5412B3570B00BC15E7 /* OpenGLImageView.m */,
+				F35C0FCF12B360BB00BC15E7 /* PropertiesDelegate.h */,
+				F35C0FD012B360BB00BC15E7 /* PropertiesDelegate.m */,
+				F35C155412C5B9CE00BC15E7 /* ImageDetails.h */,
+				F35C155512C5B9CE00BC15E7 /* ImageDetails.m */,
+			);
+			sourceTree = "<group>";
+		};
+		F39938DB1283D50500A51E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39938DA1283D50500A51E68 /* PDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39938D91283D50500A51E68 /* PDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39938E01283D50600A51E68 /* Build configuration list for PBXNativeTarget "PDK" */;
+			buildPhases = (
+				F39938D61283D50500A51E68 /* Resources */,
+				F39938D71283D50500A51E68 /* Sources */,
+				F39938D81283D50500A51E68 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDK;
+			productName = GLUT;
+			productReference = F39938DA1283D50500A51E68 /* PDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39938CB1283D4D300A51E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = F39938CE1283D4D300A51E68 /* Build configuration list for PBXProject "PDKMapCreator" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = F39938C91283D4D300A51E68;
+			productRefGroup = F39938DB1283D50500A51E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39938D91283D50500A51E68 /* PDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39938D61283D50500A51E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39939531284740300A51E68 /* MainMenu.nib in Resources */,
+				F3D2D18E12990F2600E31B19 /* map.icns in Resources */,
+				F3D2D1A112990FF600E31B19 /* logo.png in Resources */,
+				F35C0F4A12B352B200BC15E7 /* defaultImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39938D71283D50500A51E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F399394A128473BC00A51E68 /* View.m in Sources */,
+				F399394B128473BC00A51E68 /* Controller.m in Sources */,
+				F399394C128473BC00A51E68 /* main.m in Sources */,
+				F39939E11285058100A51E68 /* Map.m in Sources */,
+				F375C3A1128922AB00DBE3B2 /* Environment.m in Sources */,
+				F3D2CDD012979AC700E31B19 /* Asset.m in Sources */,
+				F3D2CDD412979F6600E31B19 /* ImageAsset.m in Sources */,
+				F3D2D3F8129CD33900E31B19 /* ModelAsset.m in Sources */,
+				F3D2D41B129CD6D100E31B19 /* ModelPart.m in Sources */,
+				F3D2D73212A05E8400E31B19 /* WeaponAsset.m in Sources */,
+				F35C0F5512B3570B00BC15E7 /* OpenGLImageView.m in Sources */,
+				F35C0FD112B360BB00BC15E7 /* PropertiesDelegate.m in Sources */,
+				F35C155612C5B9CE00BC15E7 /* ImageDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F39939511284740300A51E68 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39939521284740300A51E68 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39938CC1283D4D300A51E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F39938CD1283D4D300A51E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		F39938DE1283D50600A51E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "GLUT-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PDK;
+			};
+			name = Debug;
+		};
+		F39938DF1283D50600A51E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "GLUT-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GLUT;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39938CE1283D4D300A51E68 /* Build configuration list for PBXProject "PDKMapCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39938CC1283D4D300A51E68 /* Debug */,
+				F39938CD1283D4D300A51E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39938E01283D50600A51E68 /* Build configuration list for PBXNativeTarget "PDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39938DE1283D50600A51E68 /* Debug */,
+				F39938DF1283D50600A51E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39938CB1283D4D300A51E68 /* Project object */;
+}

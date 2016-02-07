@@ -1,0 +1,6 @@
+/Users/spencerwhyte/Documents/x/View.m: In function '-[View initWithFrame:colorBits:depthBits:]':
+/Users/spencerwhyte/Documents/x/View.m:24: warning: 'CGDisplayCurrentMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:507)
+/Users/spencerwhyte/Documents/x/View.m: In function '-[View switchToOriginalDisplayMode]':
+/Users/spencerwhyte/Documents/x/View.m:79: warning: 'CGDisplaySwitchToMode' is deprecated (declared at /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:512)
+/Users/spencerwhyte/Documents/x/View.m: At top level:
+/Users/spencerwhyte/Documents/x/View.m:170: warning: method possibly missing a [super dealloc] call
